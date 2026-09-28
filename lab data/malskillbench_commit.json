@@ -1,0 +1,101 @@
+{
+  "sha": "06e083125d5ec5dd7a189dfedadfe587a70635b9",
+  "node_id": "C_kwDOQ-DHIdoAKDA2ZTA4MzEyNWQ1ZWM1ZGQ3YTE4OWRmZWRhZGZlNTg3YTcwNjM1Yjk",
+  "commit": {
+    "author": {
+      "name": "Blue",
+      "email": "1796369212@qq.com",
+      "date": "2026-06-08T05:28:58Z"
+    },
+    "committer": {
+      "name": "Blue",
+      "email": "1796369212@qq.com",
+      "date": "2026-06-10T06:43:27Z"
+    },
+    "message": "Add citation to README",
+    "tree": {
+      "sha": "cf82e1ffb53a9361aa29e2f25998ceca4abb94c0",
+      "url": "https://api.github.com/repos/lxyeternal/MalSkillBench/git/trees/cf82e1ffb53a9361aa29e2f25998ceca4abb94c0"
+    },
+    "url": "https://api.github.com/repos/lxyeternal/MalSkillBench/git/commits/06e083125d5ec5dd7a189dfedadfe587a70635b9",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/lxyeternal/MalSkillBench/commits/06e083125d5ec5dd7a189dfedadfe587a70635b9",
+  "html_url": "https://github.com/lxyeternal/MalSkillBench/commit/06e083125d5ec5dd7a189dfedadfe587a70635b9",
+  "comments_url": "https://api.github.com/repos/lxyeternal/MalSkillBench/commits/06e083125d5ec5dd7a189dfedadfe587a70635b9/comments",
+  "author": {
+    "login": "lxyeternal",
+    "id": 31911409,
+    "node_id": "MDQ6VXNlcjMxOTExNDA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/31911409?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lxyeternal",
+    "html_url": "https://github.com/lxyeternal",
+    "followers_url": "https://api.github.com/users/lxyeternal/followers",
+    "following_url": "https://api.github.com/users/lxyeternal/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lxyeternal/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lxyeternal/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lxyeternal/subscriptions",
+    "organizations_url": "https://api.github.com/users/lxyeternal/orgs",
+    "repos_url": "https://api.github.com/users/lxyeternal/repos",
+    "events_url": "https://api.github.com/users/lxyeternal/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lxyeternal/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "lxyeternal",
+    "id": 31911409,
+    "node_id": "MDQ6VXNlcjMxOTExNDA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/31911409?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lxyeternal",
+    "html_url": "https://github.com/lxyeternal",
+    "followers_url": "https://api.github.com/users/lxyeternal/followers",
+    "following_url": "https://api.github.com/users/lxyeternal/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lxyeternal/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lxyeternal/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lxyeternal/subscriptions",
+    "organizations_url": "https://api.github.com/users/lxyeternal/orgs",
+    "repos_url": "https://api.github.com/users/lxyeternal/repos",
+    "events_url": "https://api.github.com/users/lxyeternal/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lxyeternal/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "90d7ada5787a19bf372e4f003ca808d696710f2b",
+      "url": "https://api.github.com/repos/lxyeternal/MalSkillBench/commits/90d7ada5787a19bf372e4f003ca808d696710f2b",
+      "html_url": "https://github.com/lxyeternal/MalSkillBench/commit/90d7ada5787a19bf372e4f003ca808d696710f2b"
+    }
+  ],
+  "stats": {
+    "total": 30,
+    "additions": 30,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "6b0eaff328cbe39844096415a5a2377538502fc1",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "changes": 30,
+      "blob_url": "https://github.com/lxyeternal/MalSkillBench/blob/06e083125d5ec5dd7a189dfedadfe587a70635b9/README.md",
+      "raw_url": "https://github.com/lxyeternal/MalSkillBench/raw/06e083125d5ec5dd7a189dfedadfe587a70635b9/README.md",
+      "contents_url": "https://api.github.com/repos/lxyeternal/MalSkillBench/contents/README.md?ref=06e083125d5ec5dd7a189dfedadfe587a70635b9",
+      "patch": "@@ -4,6 +4,22 @@\n \n AI coding agents (Claude Code, OpenCode, Gemini CLI, ...) extend themselves with third-party *skills*: `SKILL.md` packages that bundle natural-language instructions, executable scripts, and tool permissions. A skill is at once code and agent-facing instruction, so it opens an attack surface that is neither pure software nor pure prompt. MalSkillBench is the first large-scale, taxonomy-driven, runtime-verified benchmark for malicious agent skills that jointly covers code injection, prompt injection, and mixed instruction-code attacks.\n \n+\n+**Cite Me**\n+\n+```\n+@misc{guo2026malskillbenchruntimeverifiedbenchmarkmalicious,\n+      title={MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills}, \n+      author={Wenbo Guo and Wei Zeng and Chengwei Liu and Xiaojun Jia and Yijia Xu and Lei Tang and Yong Fang and Yang Liu},\n+      year={2026},\n+      eprint={2606.07131},\n+      archivePrefix={arXiv},\n+      primaryClass={cs.CR},\n+      url={https://arxiv.org/abs/2606.07131}, \n+}\n+```\n+\n+\n ## What's in the benchmark\n \n | Split | Count | Description |\n@@ -128,6 +144,20 @@ Evaluated under `Experiment/RQ3` and `Experiment/RQ4`, grouped under `Baselines/\n \n The central question is not whether a detector catches malicious code or malicious text alone, but whether it can reason over the relationship between a skill's code and its instructions.\n \n+## Cite Me\n+\n+```\n+@misc{guo2026malskillbenchruntimeverifiedbenchmarkmalicious,\n+      title={MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills}, \n+      author={Wenbo Guo and Wei Zeng and Chengwei Liu and Xiaojun Jia and Yijia Xu and Lei Tang and Yong Fang and Yang Liu},\n+      year={2026},\n+      eprint={2606.07131},\n+      archivePrefix={arXiv},\n+      primaryClass={cs.CR},\n+      url={https://arxiv.org/abs/2606.07131}, \n+}\n+```\n+\n ## License\n \n For academic research use only."
+    }
+  ]
+}

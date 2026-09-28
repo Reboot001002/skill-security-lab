@@ -1,0 +1,574 @@
+[
+  {
+    "skill_id": "sb-001",
+    "task_id": "dialogue-parser",
+    "entry_path": "sources/skillsbench/tasks/dialogue-parser/environment/skills/dialogue-graph/SKILL.md",
+    "package_manifest_sha256": "21714339ec45ad9ba6217b1f79a2b2c0f65dbaaffa4d6b6cb303767fb6df5bef",
+    "file_count": 2,
+    "files": [
+      {
+        "path": "scripts/dialogue_graph.py",
+        "sha256": "f169725b80f5d63bddab1f2b5bbe1114643952defff760ef9e2e1096a93f53de"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "03d711b93219cec1cd70d823d595e7c5adffc058c5910b94886fe6cc374f08d8"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-002",
+    "task_id": "latex-formula-extraction",
+    "entry_path": "sources/skillsbench/tasks/latex-formula-extraction/environment/skills/marker/SKILL.md",
+    "package_manifest_sha256": "37df79b070313b2ba32f26bd604daaf4e7998587f76a84e535eb2c572995a9ff",
+    "file_count": 2,
+    "files": [
+      {
+        "path": "scripts/marker_to_markdown.py",
+        "sha256": "6d5f28e9eb2f7a4d8f8b53f1feb26443dc7cf9292d1b0bf369333b6c7c88a4df"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "c931b6398d4a9fe59126c8fda56e5c0d275550e907726820547ea9e84302843d"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-003",
+    "task_id": "latex-formula-extraction",
+    "entry_path": "sources/skillsbench/tasks/latex-formula-extraction/environment/skills/pdf/SKILL.md",
+    "package_manifest_sha256": "01986553574ec9eb2e8fd468c7f0fb69f139aab2cbf5603939ffee8a11db66cb",
+    "file_count": 12,
+    "files": [
+      {
+        "path": "forms.md",
+        "sha256": "0ab10e9095deb1c1f9f79eb04254589f55c1d16e095cb53191e03f9fc3184449"
+      },
+      {
+        "path": "LICENSE.txt",
+        "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+      },
+      {
+        "path": "reference.md",
+        "sha256": "3c6e7c055461d28c2047556dcc65185f542805b0a3198d2fe24236ac07699696"
+      },
+      {
+        "path": "scripts/check_bounding_boxes.py",
+        "sha256": "c5a6c5c418252965eb3b2ed26bb4206f102118805a9d314ab8e7992faf487016"
+      },
+      {
+        "path": "scripts/check_bounding_boxes_test.py",
+        "sha256": "c9614e2dee1f614318985c9bcabb24e4bea6326b866d7dae7494940047f38461"
+      },
+      {
+        "path": "scripts/check_fillable_fields.py",
+        "sha256": "9842bf09975f2cc2bd2e1f7a413ecd0d4a7823b09653278bfc59d84af3b0aeb9"
+      },
+      {
+        "path": "scripts/convert_pdf_to_images.py",
+        "sha256": "4fdb00d3042f6c995ad5994a43e306a2b13c3e5b94eef2088dd6db6200476e58"
+      },
+      {
+        "path": "scripts/create_validation_image.py",
+        "sha256": "7a58f04c3607897f9491513e4f5f624cfdf7dd8521ce5eaf7b5707c2581e4594"
+      },
+      {
+        "path": "scripts/extract_form_field_info.py",
+        "sha256": "683228c1b909e821739f138e753d00c8f514e7bb54d3686045e38426fc813d46"
+      },
+      {
+        "path": "scripts/fill_fillable_fields.py",
+        "sha256": "c5f7602e1b14d12457bb42812da80cfb22b0bbdbe8b70da4035a69b73e5160fe"
+      },
+      {
+        "path": "scripts/fill_pdf_form_with_annotations.py",
+        "sha256": "503fc5a22080b2343cbcf9795fe37c7b2afd49a5a5840115d01c9f83afa45f97"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-004",
+    "task_id": "paper-anonymizer",
+    "entry_path": "sources/skillsbench/tasks/paper-anonymizer/environment/skills/academic-pdf-redaction/SKILL.md",
+    "package_manifest_sha256": "149bc7e3ebba163d6247569f3bfa7aca2bb4e18b1801ae43095d0261c54004e2",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "587dbb503749a037f1f51983a1c7bca4177f8f647be82b25e5751b5408a52a8c"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-005",
+    "task_id": "paper-anonymizer",
+    "entry_path": "sources/skillsbench/tasks/paper-anonymizer/environment/skills/pdf/SKILL.md",
+    "package_manifest_sha256": "4776a6d7e76c8b9a7da9cc733111332fa3240304aa1ace1d26921cc72f88c397",
+    "file_count": 4,
+    "files": [
+      {
+        "path": "forms.md",
+        "sha256": "0ab10e9095deb1c1f9f79eb04254589f55c1d16e095cb53191e03f9fc3184449"
+      },
+      {
+        "path": "LICENSE.txt",
+        "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+      },
+      {
+        "path": "reference.md",
+        "sha256": "3c6e7c055461d28c2047556dcc65185f542805b0a3198d2fe24236ac07699696"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-006",
+    "task_id": "pdf-excel-diff",
+    "entry_path": "sources/skillsbench/tasks/pdf-excel-diff/environment/skills/pdf/SKILL.md",
+    "package_manifest_sha256": "01986553574ec9eb2e8fd468c7f0fb69f139aab2cbf5603939ffee8a11db66cb",
+    "file_count": 12,
+    "files": [
+      {
+        "path": "forms.md",
+        "sha256": "0ab10e9095deb1c1f9f79eb04254589f55c1d16e095cb53191e03f9fc3184449"
+      },
+      {
+        "path": "LICENSE.txt",
+        "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+      },
+      {
+        "path": "reference.md",
+        "sha256": "3c6e7c055461d28c2047556dcc65185f542805b0a3198d2fe24236ac07699696"
+      },
+      {
+        "path": "scripts/check_bounding_boxes.py",
+        "sha256": "c5a6c5c418252965eb3b2ed26bb4206f102118805a9d314ab8e7992faf487016"
+      },
+      {
+        "path": "scripts/check_bounding_boxes_test.py",
+        "sha256": "c9614e2dee1f614318985c9bcabb24e4bea6326b866d7dae7494940047f38461"
+      },
+      {
+        "path": "scripts/check_fillable_fields.py",
+        "sha256": "9842bf09975f2cc2bd2e1f7a413ecd0d4a7823b09653278bfc59d84af3b0aeb9"
+      },
+      {
+        "path": "scripts/convert_pdf_to_images.py",
+        "sha256": "4fdb00d3042f6c995ad5994a43e306a2b13c3e5b94eef2088dd6db6200476e58"
+      },
+      {
+        "path": "scripts/create_validation_image.py",
+        "sha256": "7a58f04c3607897f9491513e4f5f624cfdf7dd8521ce5eaf7b5707c2581e4594"
+      },
+      {
+        "path": "scripts/extract_form_field_info.py",
+        "sha256": "683228c1b909e821739f138e753d00c8f514e7bb54d3686045e38426fc813d46"
+      },
+      {
+        "path": "scripts/fill_fillable_fields.py",
+        "sha256": "c5f7602e1b14d12457bb42812da80cfb22b0bbdbe8b70da4035a69b73e5160fe"
+      },
+      {
+        "path": "scripts/fill_pdf_form_with_annotations.py",
+        "sha256": "503fc5a22080b2343cbcf9795fe37c7b2afd49a5a5840115d01c9f83afa45f97"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-007",
+    "task_id": "pdf-excel-diff",
+    "entry_path": "sources/skillsbench/tasks/pdf-excel-diff/environment/skills/xlsx/SKILL.md",
+    "package_manifest_sha256": "cd457974d552cecd60dc2f8bd6af2f604b43fa9677aa26f584358b39a7aded94",
+    "file_count": 3,
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+      },
+      {
+        "path": "recalc.py",
+        "sha256": "f0833720e26fa894c9c1ccf0bd71dfc4609f8a310360fb2de2071efb64fbd409"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "9bdc1fee81f3be9cb34ac49f8890c094a3855d3d0236783d10e0ea6df1515e01"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-008",
+    "task_id": "sales-pivot-analysis",
+    "entry_path": "sources/skillsbench/tasks/sales-pivot-analysis/environment/skills/pdf/SKILL.md",
+    "package_manifest_sha256": "70442df38af43206b991edd120af7074d8e7cea26e23ee6ad1c6850635b45e9a",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "332f39fecedcfef2fa73108937e1b2d8c6789a53067a92fed8cadd9ec9e62305"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-009",
+    "task_id": "sales-pivot-analysis",
+    "entry_path": "sources/skillsbench/tasks/sales-pivot-analysis/environment/skills/xlsx/SKILL.md",
+    "package_manifest_sha256": "c86454dbf0d6cfcb1866669bd093371adfd6c891553ce7edd39e50668e886396",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "845c73412be7cb9c1fcba4236a2102e8a52f0a83732496f03b3d95a0458c1ace"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-010",
+    "task_id": "xlsx-recover-data",
+    "entry_path": "sources/skillsbench/tasks/xlsx-recover-data/environment/skills/data-reconciliation/SKILL.md",
+    "package_manifest_sha256": "382f220787f2a78ce71abebbef60b1eed8b431380010c224aa807c3ba02bafb3",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "341dd818dfc713e5413bb74923c905f9990996c0876037a3918bce826b6a0c8d"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-011",
+    "task_id": "xlsx-recover-data",
+    "entry_path": "sources/skillsbench/tasks/xlsx-recover-data/environment/skills/xlsx/SKILL.md",
+    "package_manifest_sha256": "cd457974d552cecd60dc2f8bd6af2f604b43fa9677aa26f584358b39a7aded94",
+    "file_count": 3,
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+      },
+      {
+        "path": "recalc.py",
+        "sha256": "f0833720e26fa894c9c1ccf0bd71dfc4609f8a310360fb2de2071efb64fbd409"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "9bdc1fee81f3be9cb34ac49f8890c094a3855d3d0236783d10e0ea6df1515e01"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-012",
+    "task_id": "manufacturing-codebook-normalization",
+    "entry_path": "sources/skillsbench/tasks/manufacturing-codebook-normalization/environment/skills/manufacturing-failure-reason-codebook-normalization/SKILL.md",
+    "package_manifest_sha256": "ea3546c6a53817ad06b466ec242765b9f58af4caa4b1c8799102d5df871a152f",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "3aba5be4d0f33208d296198fef4bad8816d191bbdd3ec8594cda1de7aab055f0"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-013",
+    "task_id": "weighted-gdp-calc",
+    "entry_path": "sources/skillsbench/tasks/weighted-gdp-calc/environment/skills/xlsx/SKILL.md",
+    "package_manifest_sha256": "cd457974d552cecd60dc2f8bd6af2f604b43fa9677aa26f584358b39a7aded94",
+    "file_count": 3,
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa"
+      },
+      {
+        "path": "recalc.py",
+        "sha256": "f0833720e26fa894c9c1ccf0bd71dfc4609f8a310360fb2de2071efb64fbd409"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "9bdc1fee81f3be9cb34ac49f8890c094a3855d3d0236783d10e0ea6df1515e01"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-014",
+    "task_id": "software-dependency-audit",
+    "entry_path": "sources/skillsbench/tasks/software-dependency-audit/environment/skills/cvss-score-extraction/SKILL.md",
+    "package_manifest_sha256": "7fed669c5df96168a38ebf0183d6d2d3d88dd659947e1430e8fd6a157406b49e",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "5f9e2a22ec2a8230c9d6ed234fb7c48742e257631d397eb9bcabd5d12b7798d2"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-015",
+    "task_id": "software-dependency-audit",
+    "entry_path": "sources/skillsbench/tasks/software-dependency-audit/environment/skills/trivy-offline-vulnerability-scanning/SKILL.md",
+    "package_manifest_sha256": "bb65ced882c856d8eb764856aae23d109c2ec837a9882c4ed9aa33988cfebba1",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "594389f6d5d0d58c1c7714592bfce7f871154827a4b65f948d9829f2af3108a3"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-016",
+    "task_id": "software-dependency-audit",
+    "entry_path": "sources/skillsbench/tasks/software-dependency-audit/environment/skills/vulnerability-csv-reporting/SKILL.md",
+    "package_manifest_sha256": "ac8e89feda637a5cdf5e27b07f465f36fe09b3bc9dc625d1fe7f49b2034cb5b1",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "80c79f8543d118a2c4625cdcdb4b7576b3e834f9cb7f9adbe3ace6c7040a3439"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-017",
+    "task_id": "fix-build-agentops",
+    "entry_path": "sources/skillsbench/tasks/fix-build-agentops/environment/skills/analyze-ci/SKILL.md",
+    "package_manifest_sha256": "6c7e3ab52cda478030841ff33e5914111af6d06d40a297b82316251901889422",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "f59a07dcffe019f17cfa6ec211cbfb070e6292257be7119ed55ffa0b9bce7197"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-018",
+    "task_id": "fix-build-agentops",
+    "entry_path": "sources/skillsbench/tasks/fix-build-agentops/environment/skills/temporal-python-testing/SKILL.md",
+    "package_manifest_sha256": "1011bec2ec6712b25f6d735a18e25b38b63e48651d71223fee9108bfa1f3a15b",
+    "file_count": 5,
+    "files": [
+      {
+        "path": "resources/integration-testing.md",
+        "sha256": "91e0253dfb2c815e8be03fdf864f9a3796079718949aa8edcf25218f14e33494"
+      },
+      {
+        "path": "resources/local-setup.md",
+        "sha256": "d760b4557b4393a8427e2f566374315f86f1a7fa2a7e926612a594f62c1a0e30"
+      },
+      {
+        "path": "resources/replay-testing.md",
+        "sha256": "9fc02f45c66324e15229047e28d5c77b3496299ca4fa83dbfaae6fb67af8bfc3"
+      },
+      {
+        "path": "resources/unit-testing.md",
+        "sha256": "1836367b98c5ee84e9ea98d1b30726bf48ef5404aaf0426f88742bdcce5712cf"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "21e5d2382d474553eadb2771c764f4aa2b55a12bd75bc40894e68630c02db7bb"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-019",
+    "task_id": "fix-build-agentops",
+    "entry_path": "sources/skillsbench/tasks/fix-build-agentops/environment/skills/testing-python/SKILL.md",
+    "package_manifest_sha256": "990161a78eae540b2ff1f4388e12f0e4561511c79d7a122359950eb9c9b9dff3",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "2741f4b02a7021658993213ce85095871e30ebfc1eba2bbef9d56f0bb71dea32"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-020",
+    "task_id": "fix-build-agentops",
+    "entry_path": "sources/skillsbench/tasks/fix-build-agentops/environment/skills/uv-package-manager/SKILL.md",
+    "package_manifest_sha256": "55eb1c490bb2c302abf68d6a82974b65c4e47a53eae97e0933268228ad229bff",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "85c71e75e63966eb06a72dc0a7ed2046c45c38bb5574d748603917c4a3801878"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-021",
+    "task_id": "fix-build-google-auto",
+    "entry_path": "sources/skillsbench/tasks/fix-build-google-auto/environment/skills/maven-build-lifecycle/SKILL.md",
+    "package_manifest_sha256": "fb880e9aa27e766417447507cafc6636d137fe62b23c40020fc1aa2f10242570",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "8d65a5ace544deb6beafebe9275eaa9f0673ac1286899c7f7ddecd3dfce03974"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-022",
+    "task_id": "fix-build-google-auto",
+    "entry_path": "sources/skillsbench/tasks/fix-build-google-auto/environment/skills/maven-dependency-management/SKILL.md",
+    "package_manifest_sha256": "92c6028cbd4f51e84d18b155e2530b20d5480c8a0d193f1fd9e18f406309e482",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "d5a95c61cb189750beafbd7fea8e8ca8159ccf905d90974637b0a3e5495c7846"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-023",
+    "task_id": "fix-build-google-auto",
+    "entry_path": "sources/skillsbench/tasks/fix-build-google-auto/environment/skills/maven-plugin-configuration/SKILL.md",
+    "package_manifest_sha256": "24074f1d2a1f755bf5d18fa550863da1162437eb453abc59bf86f46a4c6160fb",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "ff8b766a8283c035d0fba5cf71f0dd194c14a21e136c2a2916bf7bff3fcdd01c"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-024",
+    "task_id": "threejs-structure-parser",
+    "entry_path": "sources/skillsbench/tasks/threejs-structure-parser/environment/skills/obj-exporter/SKILL.md",
+    "package_manifest_sha256": "a8f199e76477546ca8bf637c922bfa2df9d71caa545a4bfd45253167adb21ab7",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "92f851fcd69db38dc72e85f789f06557fc3e82c59d33d580fb977a72f8e587aa"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  },
+  {
+    "skill_id": "sb-025",
+    "task_id": "threejs-structure-parser",
+    "entry_path": "sources/skillsbench/tasks/threejs-structure-parser/environment/skills/threejs/SKILL.md",
+    "package_manifest_sha256": "f562b5607f04880f1d5155af69253d7dd7a69562ee203beb6b7aa766008646d6",
+    "file_count": 7,
+    "files": [
+      {
+        "path": "references/joint-type-heuristics.md",
+        "sha256": "459af44b906bb2bf61a940e88b83b1cf7afe3ddb17c17d355577f987c6a6214b"
+      },
+      {
+        "path": "references/link-export-rules.md",
+        "sha256": "7c664561c879a7be8d799665f781ba8497abcdbf34ec6c369121fd57d699b835"
+      },
+      {
+        "path": "references/urdf-minimal.md",
+        "sha256": "204b4ae283774fe2a8181a605aa9f0d79355f6c8bf4b060c53891a2136750aee"
+      },
+      {
+        "path": "scripts/build_urdf_from_scene.mjs",
+        "sha256": "db916f0930dd39a8e4a17ee2ddb4b166bdc41df57baacc46123fa65a052fe284"
+      },
+      {
+        "path": "scripts/export_instanced_obj.mjs",
+        "sha256": "b2d33217a6d67ecfc877bfe2d696d681409723f6ed5b5be1e12b75922a90de82"
+      },
+      {
+        "path": "scripts/export_link_objs.mjs",
+        "sha256": "95772be1810e9bea114197265a0f3094bc98607b9b871e80a34d5d7131d33494"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "ea480298751ea55effee4535b16b67ec79fd9540b971a89712e6f5b9ce8cd663"
+      }
+    ],
+    "safety_label": null,
+    "runtime_verified": false,
+    "source_role": "normal_task_skill_not_security_certified"
+  }
+]

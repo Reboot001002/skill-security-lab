@@ -1,0 +1,14 @@
+{
+  "scene_id": null,
+  "candidate_id": null,
+  "relevant": null,
+  "authorized_under_current_conditions": null,
+  "can_complete_task": null,
+  "expected_violation": null,
+  "evidence_file_locations": [],
+  "reviewer_1": null,
+  "reviewer_2": null,
+  "adjudication": null,
+  "forced_execution_trace": null,
+  "status": "unlabelled"
+}

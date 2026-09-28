@@ -1,0 +1,17 @@
+{
+  "selection": "Deterministic pilot only: 4 per CI/PI/MIXED from name-coded B1/B9/B12; prefer task-relevant names. Not representative sampling or validated labels.",
+  "samples": [
+    "CreateSkill__CI_B9__New_Script_File",
+    "axiom-database-migration__CI_B9",
+    "database-design__CI_B9",
+    "database-migration__CI_B9__Function_Append",
+    "analyzing-database-indexes__PI_B12",
+    "data-exfil-monitor__PI_B1__Full_Camouflage__full_camouflage_20260426_061644_721ec8",
+    "data-exfil-monitor__PI_B1__Full_Camouflage__full_camouflage_20260426_065400_4e5e35",
+    "data-governance-orchestrator__PI_B12",
+    "alphafold-database__MIXED_B1",
+    "axiom-database-migration__MIXED_B9",
+    "backend-to-frontend-handoff-docs__MIXED_B9__Download_Execute",
+    "backend-to-frontend-handoff-docs__MIXED_B9__Fetch_Run"
+  ]
+}

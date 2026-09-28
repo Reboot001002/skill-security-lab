@@ -1,0 +1,61 @@
+{
+  "sha": "318e4bb0820db30168e851147c4b8451ce446065",
+  "node_id": "C_kwDOT9MF6doAKDMxOGU0YmIwODIwZGIzMDE2OGU4NTExNDdjNGI4NDUxY2U0NDYwNjU",
+  "commit": {
+    "author": {
+      "name": "Qinfei Li",
+      "email": "lqfff1984@gmail.com",
+      "date": "2026-09-21T04:34:20Z"
+    },
+    "committer": {
+      "name": "Qinfei Li",
+      "email": "lqfff1984@gmail.com",
+      "date": "2026-09-21T04:34:20Z"
+    },
+    "message": "Link Hugging Face risk-label datasets in README",
+    "tree": {
+      "sha": "2d684702941fbc4a7487662cf09b55cc888641f8",
+      "url": "https://api.github.com/repos/qli447/Risk-Aware-Tool-Retrieval-Release/git/trees/2d684702941fbc4a7487662cf09b55cc888641f8"
+    },
+    "url": "https://api.github.com/repos/qli447/Risk-Aware-Tool-Retrieval-Release/git/commits/318e4bb0820db30168e851147c4b8451ce446065",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/qli447/Risk-Aware-Tool-Retrieval-Release/commits/318e4bb0820db30168e851147c4b8451ce446065",
+  "html_url": "https://github.com/qli447/Risk-Aware-Tool-Retrieval-Release/commit/318e4bb0820db30168e851147c4b8451ce446065",
+  "comments_url": "https://api.github.com/repos/qli447/Risk-Aware-Tool-Retrieval-Release/commits/318e4bb0820db30168e851147c4b8451ce446065/comments",
+  "author": null,
+  "committer": null,
+  "parents": [
+    {
+      "sha": "bdfd2739d91871bb70e2a8af242259a5863b260e",
+      "url": "https://api.github.com/repos/qli447/Risk-Aware-Tool-Retrieval-Release/commits/bdfd2739d91871bb70e2a8af242259a5863b260e",
+      "html_url": "https://github.com/qli447/Risk-Aware-Tool-Retrieval-Release/commit/bdfd2739d91871bb70e2a8af242259a5863b260e"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "additions": 3,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "0909b857168d556635a90b323ba01bef3a646ecd",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "changes": 3,
+      "blob_url": "https://github.com/qli447/Risk-Aware-Tool-Retrieval-Release/blob/318e4bb0820db30168e851147c4b8451ce446065/README.md",
+      "raw_url": "https://github.com/qli447/Risk-Aware-Tool-Retrieval-Release/raw/318e4bb0820db30168e851147c4b8451ce446065/README.md",
+      "contents_url": "https://api.github.com/repos/qli447/Risk-Aware-Tool-Retrieval-Release/contents/README.md?ref=318e4bb0820db30168e851147c4b8451ce446065",
+      "patch": "@@ -3,6 +3,9 @@\n This repository contains the code and resolved tool-risk labels used in our\n CIKM 2026 paper, *Risk-Aware Reranking for Agentic Tool Retrieval*.\n \n+The UltraTool and Seal-Tools risk labels are also available on\n+[Hugging Face](https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels).\n+\n ## Contents\n \n - `code/model.py`: frozen-encoder dual-head reranker."
+    }
+  ]
+}

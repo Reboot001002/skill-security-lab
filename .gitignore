@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+data/
+runs/
+dist/
+*.egg-info/
+.coverage
+*.pem
+*.key
+review.local.json

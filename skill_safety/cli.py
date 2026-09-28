@@ -7,6 +7,7 @@ from .common import read_json, write_json
 from .dataset import generate
 from .experiment import audits, calibrate, freeze, load_config, run, verify_fixtures
 from .model import Client, ModelError, identity
+from .materials import inspect_materials
 from .runtime import SandboxError, isolated_preflight
 
 
@@ -15,6 +16,9 @@ def main(argv=None):
     subs = parser.add_subparsers(dest="command", required=True)
     p = subs.add_parser("generate", help="Generate draft synthetic packages and scenarios")
     p.add_argument("--data", default="data/draft")
+    p = subs.add_parser("inspect-materials", help="Read-only checks of upstream materials; never executes sources")
+    p.add_argument("--source", default="lab data")
+    p.add_argument("--out", default="runs/materials-inspection.json")
     for name in ("verify", "audit", "run", "doctor", "probe-model"):
         p = subs.add_parser(name)
         p.add_argument("--config", default="configs/default.json")
@@ -50,6 +54,11 @@ def main(argv=None):
         if args.command == "generate":
             result = generate(args.data)
             print(f'Generated {len(result["skills"])} packages and {len(result["scenarios"])} scenes; human review pending.')
+        elif args.command == "inspect-materials":
+            result = inspect_materials(args.source, args.out)
+            print(json.dumps({key: result[key] for key in ("tasks", "skill_entries", "scenes", "download_files", "integrity_passed", "exact_byte_matches", "line_ending_only_mismatches", "ready_for_this_runner")}, indent=2))
+            if not result["integrity_passed"]:
+                return 1
         elif args.command == "doctor":
             result = isolated_preflight(args.out, config)
             write_json(Path(args.out) / "preflight.json", result)

@@ -1,4 +1,5 @@
 import copy
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -15,6 +16,7 @@ from skill_safety.dataset import artifact, generate
 from skill_safety.experiment import calibrate, run, verify_fixtures
 from skill_safety.executor import run_agent
 from skill_safety.model import Client
+from skill_safety.materials import inspect_materials
 from skill_safety.retrieval import policy, retrieve
 from skill_safety.runtime import execute, SandboxError, command
 
@@ -163,6 +165,19 @@ class ExperimentTests(unittest.TestCase):
 
 
 class ModelProtocolTests(unittest.TestCase):
+    def test_material_inspection_identifies_line_ending_difference(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "annotations").mkdir()
+            (root / "sample.txt").write_bytes(b"a\nb\n")
+            (root / "download_manifest.json").write_text(json.dumps({"files": [{"local_path": "sample.txt", "sha256": hashlib.sha256(b"a\r\nb\r\n").hexdigest()}]}))
+            for name in ("task_inventory.json", "skill_inventory.json", "annotations/scene_templates.json"):
+                (root / name).write_text("[]")
+            result = inspect_materials(root, root / "report.json")
+            self.assertFalse(result["integrity_passed"])
+            self.assertEqual(result["line_ending_only_mismatches"], 1)
+            self.assertEqual((root / "sample.txt").read_bytes(), b"a\nb\n")
+
     def test_openai_compatible_transport_and_tool_response(self):
         captured = []
         class Handler(BaseHTTPRequestHandler):

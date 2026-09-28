@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/XuandongZhao/skillsbench-files/2982259afd39ec77df4c324bd29208f77986e9de/pdf-excel-diff/employees_current.xlsx",
+    "commit": "2982259afd39ec77df4c324bd29208f77986e9de",
+    "local_path": "external_assets\\pdf-excel-diff\\employees_current.xlsx",
+    "bytes": 520728,
+    "sha256": "4a0020c3afa31f7a40e1d25c478a8480e2c8c8337a8b6250f51bfef7895b38a8",
+    "license_status": "upstream asset license not separately verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/XuandongZhao/skillsbench-files/2982259afd39ec77df4c324bd29208f77986e9de/pdf-excel-diff/employees_backup.pdf",
+    "commit": "2982259afd39ec77df4c324bd29208f77986e9de",
+    "local_path": "external_assets\\pdf-excel-diff\\employees_backup.pdf",
+    "bytes": 2368578,
+    "sha256": "c26575e464f5d20bb80964f7775e23786c0ca2ab0597295c0efb2241e1c41c6c",
+    "license_status": "upstream asset license not separately verified"
+  }
+]

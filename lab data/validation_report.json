@@ -1,0 +1,13 @@
+{
+  "downloaded_source_files": 183,
+  "external_input_files": 2,
+  "tasks": 12,
+  "skill_entries": 25,
+  "unique_package_snapshots": 22,
+  "risk_packages": 12,
+  "tool_risk_labels": 6108,
+  "scene_templates": 48,
+  "checksum_failures": [],
+  "lfs_pointers": [],
+  "execution_performed": false
+}

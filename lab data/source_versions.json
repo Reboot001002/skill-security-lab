@@ -1,0 +1,17 @@
+{
+  "skillsbench": {
+    "repository": "benchflow-ai/skillsbench",
+    "commit": "9a1f4dd5f7659f75707435da3ce854b6e48321d1",
+    "tree_truncated": false
+  },
+  "malskillbench": {
+    "repository": "lxyeternal/MalSkillBench",
+    "commit": "06e083125d5ec5dd7a189dfedadfe587a70635b9",
+    "tree_truncated": true
+  },
+  "risk_reranking": {
+    "repository": "qli447/risk-aware-tool-retrieval-release",
+    "commit": "318e4bb0820db30168e851147c4b8451ce446065",
+    "tree_truncated": false
+  }
+}
